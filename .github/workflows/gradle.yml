@@ -28,13 +28,3 @@ jobs:
         # в headless режиме -Dselenide.headless=true, параметр --info должен остаться
         run: ./gradlew test --info  
 
-
-
-
-
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    # Runs a single command using the runners shell
-    - name: Send greeting
-      run: echo "Hello ${{ inputs.name }}"
